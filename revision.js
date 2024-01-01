@@ -271,3 +271,15 @@ function reverseREC(str){
     return res=reverseREC(str.substring(str.length))+res
 }
 //i tried alot but i can't find it 
+
+//IX//
+
+((((((("FOR")))))))
+
+function addDigits(n){
+    var x=0
+    for(i=0;i<n.toString().length;i++){
+        x+=parseInt(n.toString()[i])
+    }
+    return x
+}
